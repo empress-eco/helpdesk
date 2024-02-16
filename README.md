@@ -1,62 +1,94 @@
-<div align="center" markdown="1">
-  <picture>
-	<source 
-	  media="(prefers-color-scheme: dark)" 
-	  srcset=".github/logo_dark.svg">
-	<img
-	  width="260"
-	  alt="Frappe Helpdesk logo" 
-	  src=".github/logo_light.svg">
-  </picture>
-  </br>
-  Modern, Streamlined, Customer Service Software
-  </br>
-  
-  [frappedesk.com](https://frappedesk.com)
+<div align="center">
+    <a href="https://empress.eco/">
+        <img src="https://avatars.githubusercontent.com/u/46308912?s=96&v=4" height="50">
+    </a>
+    <h2>Empress Support</h2>
+    <p align="center">
+        <p>Empower your customers.</p>
+    </p>
+
+[https://empress.eco/app/one/](https://empress.eco/app/one/)
+
 </div>
 
----
+## Welcome to Empress Support
 
-Frappe Helpdesk offers an easy setup, clean user interface, and automation tools to resolve customer issues efficiently. It is based on Frappe Framework. It lets you streamline your company's support and helps you to efficiently manage your customer queries. It can help you to,
+Empress Support offers an intuitive setup, a clean user interface, and automation tools to resolve customer issues efficiently. Leveraging the Frappe Framework, it streamlines your company's support and efficiently manages customer queries by:
 
--   Create tickets from email or help center
--   Empower customers with a comprehensive knowledge base and self-service portal
--   Automate redundant tasks like agent assignment and set up triggers to notify agents and customers based on certain events
+- Creating tickets from email or a help center.
+- Empowering customers with a comprehensive knowledge base and self-service portal.
+- Automating redundant tasks like agent assignment and setting up triggers for notifications.
 
-![screenshot](./screenshot.png)
+## Table of Contents
+
+- [Welcome to Empress Support](#welcome-to-empress-support)
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Features](#features)
+- [Contributing](#contributing)
+- [Star this repository.](#star-this-repository)
+- [License](#license)
+- [Support](#support)
 
 ## Installation
 
-1. Install and setup bench by following [this guide](https://frappeframework.com/docs/user/en/installation)
-2. In the bench directory, run `bench start` and keep it running
-3. Open another terminal in bench directory, and run these commands
+Follow these steps to set up Empress Support:
 
-	```
-	bench get-app helpdesk
-	bench new-site helpdesk.test
-	bench --site helpdesk.test install-app helpdesk
-	bench --site helpdesk.test add-to-hosts
-	```
+```bash
+bench get-app helpdesk
+```
 
-	You can now access Helpdesk at `http://helpdesk.test`
-5. You can also run a development server by following theses steps, in Helpdesk
-   directory (`apps/helpdesk`)
+```bash
+bench new-site helpdesk.test
+```
 
-   ```
-   yarn
-   yarn dev
-   ```
+```bash
+bench --site helpdesk.test install-app helpdesk
+```
 
-   Development server will be now available at `http://localhost:8080`
+```bash
+bench --site helpdesk.test add-to-hosts
+```
 
-## Contributions and Community
+```bash
+Access Empress Support at http://helpdesk.test.
+```
 
-There are many ways you can contribute even if you don't code:
+**For development:**
 
-1. You can start by giving a star to this repository!
-2. If you find any issues, even if it is a typo, you can [raise an issue](https://github.com/frappe/desk/issues/new) to inform us.
-3. Join our [Telegram group](https://t.me/frappedesk) and share your thoughts.
+```bash
+yarn
+```
+
+```bash
+yarn dev
+```
+
+The development server will be available at http://localhost:8080.
+
+## Usage
+
+Utilize Empress Support to enhance your customer service experience, manage tickets, and provide a knowledge base for self-service.
+
+## Features
+
+* Ticket creation via email or help center.
+* Knowledge base and self-service portal for customers.
+* Automation for task assignment and event-triggered notifications.
+
+## Contributing
+
+Your contributions are welcome:
+
+## Star this repository.
+
+* Report issues or suggest features here.
+* Join our Telegram group to discuss and share feedback.
 
 ## License
+Empress Support is licensed under the GNU Affero General Public License v3.0.
 
-[GNU Affero General Public License v3.0](/licence.md)
+## Support
+Need help or want to discuss the project? Reach out through our issue tracker or contact support@example.com.
+
