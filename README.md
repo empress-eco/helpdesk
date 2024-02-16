@@ -7,7 +7,7 @@
         <p>Empower your customers.</p>
     </p>
 
-[https://empress.eco/app/one/](https://empress.eco/app/one/)
+[https://empress.eco/app/support/](https://empress.eco/app/support/)
 
 </div>
 
